@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #345765;
+  color: #FFFFFF;
+  margin: auto;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+}
+header nav {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+header nav ul li {
+  padding: 2.63rem 0.63rem;
+}
+header nav ul li a {
+  color: white;
+  padding: 2.63rem 0.63rem;
+  text-decoration: none;
+  position: relative;
+}
+header nav ul li a:hover {
+  font-size: 16px;
+  color: yellow;
+  text-transform: uppercase;
+}
+
+main {
+  font-family: sans-serif;
+  background-color: #E5E5E5;
+}
+main h1 {
+  margin: auto;
+  text-align: left;
+  max-width: 1400px;
+  padding: 9.375rem 0 2rem 0;
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #34A58A;
+}
+main .intro {
+  display: flex;
+  margin: auto;
+  max-width: 1400px;
+  width: 100%;
+}
+main .bloc1 {
+  display: flex;
+  max-width: 1400px;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+}
+main .bloc1 .sousBloc1 {
+  max-width: 750px;
+}
+main .bloc1 .sousBloc1 h2 {
+  padding-bottom: 3rem;
+  font-size: 2.25rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #6B5B54;
+}
+main .bloc1 .sousBloc1 p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: 0.05em;
+}
+main .bloc1 .sousBloc1 .sousBloc2 {
+  font-style: normal;
+  font-family: sans-serif;
+}
+main .bloc1 .sousBloc1 .sousBloc2 h2 {
+  padding-top: 4.13rem;
+  padding-bottom: 1.25rem;
+  font-size: 2.25rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #6B5B54;
+}
+main .bloc1 .sousBloc1 .sousBloc2 address {
+  color: #34A58A;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+main .bloc1 .sousBloc1 .sousBloc2 address p::before {
+  content: "\f041";
+  font-family: "FontAwesome";
+}
+main .bloc1 .sousBloc1 .sousBloc2 address a {
+  text-decoration: none;
+  color: #34A58A;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+main .bloc1 .sousBloc1 .sousBloc2 address a:first-of-type::before {
+  content: "\f003";
+  font-family: "FontAwesome";
+}
+main .bloc1 .sousBloc1 .sousBloc2 address a:last-of-type::before {
+  content: "\f095";
+  font-family: "FontAwesome";
+}
+main .bloc1 .sousBloc3 h2 {
+  padding-bottom: 3rem;
+  font-size: 2.25rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #6B5B54;
+}
+main .bloc1 .sousBloc3 .map {
+  overflow: hidden;
+  border: solid 5px #FFFFFF;
+  border-radius: 0.6rem;
+}
+main .bloc1 .sousBloc3 .map iframe {
+  margin-top: -9.375rem;
+  margin-bottom: -9.375rem;
+}
+main .bloc2 {
+  margin: auto;
+  justify-items: end;
+  align-items: center;
+  max-width: 1600px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main .bloc2 h2 {
+  font-size: 2.25rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  width: 100%;
+  padding: 1.5rem 1.5rem;
+  box-sizing: border-box;
+  letter-spacing: 0.06em;
+  color: #6B5B54;
+}
+main .bloc2 .toutVoir {
+  margin-right: 2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 0.32rem;
+  background-color: #34A58A;
+  color: #FFFFFF;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.13rem;
+  letter-spacing: 0.04em;
+}
+main .bloc2 article {
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+main .bloc2 article div {
+  margin-left: 0.75rem;
+  display: block;
+  position: relative;
+}
+main .bloc2 article div h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+main .bloc2 article div p:first-of-type {
+  font-size: 0.75rem;
+  color: #345765;
+  padding-bottom: 2rem;
+  font-family: "Lato";
+  letter-spacing: 0.06em;
+}
+main .bloc2 article div p:first-of-type time {
+  font-size: 0.75rem;
+  color: #345765;
+  font-family: "Lato";
+  letter-spacing: 0.06em;
+}
+main .bloc2 article div p:last-of-type {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.125rem;
+  letter-spacing: 0.04em;
+}
+main .bloc2 article div a {
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #34A58A;
+  text-decoration: none;
+}
+main .bloc2 article div a .enSavoirPlus {
+  font-size: 1.5rem;
+}
+main .bloc2 article div a .plus {
+  font-size: 2rem;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+}
+main .endMain {
+  padding-bottom: 5rem;
+}
+
+footer {
+  background-color: #345765;
+  color: #FFFFFF;
+  padding-top: 2rem;
+}
+footer .bloc3 {
+  display: flex;
+  justify-content: space-around;
+  line-height: 2rem;
+}
+footer .bloc3 .bloc3a h4 {
+  padding: 1rem 0 0.25rem 0;
+  text-decoration: underline;
+  font-size: 1.38rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+footer .bloc3 .bloc3a address {
+  color: #FFFFFF;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: 1rem 0 1rem 0;
+}
+footer .bloc3 .bloc3a address p, footer .bloc3 .bloc3a address a {
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+}
+footer .bloc3 .bloc3a address a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer .bloc3 .bloc3a address .tel::before {
+  content: "\f095";
+  font-family: "FontAwesome";
+}
+footer .bloc3 .bloc3a address .mail::before {
+  content: "\f003";
+  font-family: "FontAwesome";
+}
+footer .bloc3 .bloc3a address .adresse::before {
+  content: "\f0f8";
+  font-family: "FontAwesome";
+}
+footer .bloc3 .bloc3b h4 {
+  text-decoration: underline;
+  padding: 1rem 0 1.5rem 0;
+  font-size: 1.38rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+footer .bloc3 .bloc3b p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+}
+footer .bloc3 .bloc3b p:nth-of-type(2) {
+  padding-bottom: 1rem;
+}
+footer .bloc3 .bloc3c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .bloc3 .bloc3c img {
+  padding-bottom: 0.5rem;
+}
+footer .mention {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: 0.06em;
+}
+footer .mention::before {
+  content: "";
+  height: 2px;
+  left: 0;
+  right: 0;
+  top: 3rem;
+  position: absolute;
+  background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 1540px) {
+  main h1 {
+    padding-left: 2rem;
+  }
+  main .bloc1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  main .bloc1 .sousBloc3 h2 {
+    text-align: center;
+  }
+  main .bloc2 {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+  main .bloc2 h3,
+main .bloc2 p,
+main .bloc2 address {
+    max-width: 70%;
+  }
+  main .bloc2 .toutVoir {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+@media screen and (max-width: 860px) {
+  main h1 {
+    text-align: center;
+    padding-left: 0;
+  }
+  main .bloc1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main .bloc1 .sousBloc3 h2 {
+    padding-top: 3rem;
+  }
+  main .bloc2 div {
+    display: flex;
+  }
+  main .bloc2 div a .enSavoirPlus {
+    display: none;
+  }
+  main .bloc2 article img {
+    display: none;
+  }
+  footer .bloc3 {
+    text-align: center;
+    flex-direction: column;
+  }
+  footer .bloc3 .bloc3c {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 620px) {
+  header nav {
+    padding-top: 2.5rem;
+    padding-bottom: 2.25rem;
+    width: calc(100% - 2.5rem);
+    display: flex;
+    justify-content: flex-end;
+  }
+  header nav ul {
+    max-width: 1.5rem;
+    height: 1.25rem;
+    margin-right: 3rem;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    position: relative;
+  }
+  header nav ul::before {
+    content: "";
+    height: 3px;
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    top: 8px;
+    position: absolute;
+  }
+  header nav ul li a {
+    display: none;
+  }
+  main h1 {
+    font-size: 2rem;
+  }
+  main .bloc1 .sousBloc3 .map iframe {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+  main .bloc2 {
+    position: relative;
+  }
+  main .bloc2 .toutVoir {
+    position: absolute;
+    bottom: -4rem;
+  }
+  footer .bloc3 .bloc3a h4 {
+    font-size: 1.13rem;
+  }
+  footer .bloc3 .bloc3a address p, footer .bloc3 .bloc3a address a {
+    font-size: 1rem;
+  }
+  footer .bloc3 .bloc3b h4 {
+    font-size: 1.13rem;
+  }
+  footer .bloc3 .bloc3b p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
